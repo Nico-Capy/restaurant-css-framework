@@ -2,21 +2,9 @@
     font-family: 'Beernote';
     src: url('BEERNOTE.ttf') format('truetype');
 }
-    
-
-.head{
-    background-color: crimson;
-    height: 16%;
-    width: 100%;
-    color: antiquewhite;
-}
 
 h1{
     font-family: Beernote;
     font-size: larger;
     margin-left: 2%;
-}
-
-.dropdown:hover{
-    color: blueviolet;
 }
