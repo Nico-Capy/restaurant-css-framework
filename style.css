@@ -3,32 +3,25 @@
     src: url('BEERNOTE.ttf') format('truetype');
 }
 
-.container-fluid{
-    background-color: crimson;
-    margin-top: -0.7%;
+// Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+    
 }
 
-.navbar-brand{
-    padding-left: 2%;
-    font-size: 100%;
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+    
 }
 
-.jumbotron{
-    margin: auto;
-    width: 100%;
-    padding: 16px;
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+    
 }
 
-.container{
-    text-align: center;
-}
-
-.crumb{
-    background-color: blue;
-    width: 100%;
-
-}
-
-.breadcrumb-item li a::after{
-    content: ">";
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+    
 }
