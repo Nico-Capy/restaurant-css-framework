@@ -3,10 +3,13 @@
     src: url('BEERNOTE.ttf') format('truetype');
 }
 
-.name{
+.container-fluid{
+    background-color: crimson;
+    margin-top: -0.7%;
+}
+
+.navbar-brand{
     padding-left: 2%;
     font-family: Beernote;
     font-size: 100%;
-    line-height: 0.6cm;
 }
-
