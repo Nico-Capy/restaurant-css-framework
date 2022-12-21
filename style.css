@@ -22,3 +22,13 @@
 .container{
     text-align: center;
 }
+
+.crumb{
+    background-color: blue;
+    width: 100%;
+
+}
+
+.breadcrumb-item li a::after{
+    content: ">";
+}
