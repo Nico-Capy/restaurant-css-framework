@@ -3,8 +3,10 @@
     src: url('BEERNOTE.ttf') format('truetype');
 }
 
-h1{
+.name{
+    padding-left: 2%;
     font-family: Beernote;
-    font-size: larger;
-    margin-left: 2%;
+    font-size: 100%;
+    line-height: 0.6cm;
 }
+
