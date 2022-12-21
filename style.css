@@ -10,6 +10,15 @@
 
 .navbar-brand{
     padding-left: 2%;
-    font-family: Beernote;
     font-size: 100%;
+}
+
+.jumbotron{
+    margin: auto;
+    width: 100%;
+    padding: 16px;
+}
+
+.container{
+    text-align: center;
 }
