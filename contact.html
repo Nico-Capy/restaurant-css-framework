@@ -31,6 +31,46 @@
     </ol>
   </nav>
 
+  <form>
+
+    <div class="row">
+      <div class="container col-md">
+        <div class="d-flex ">
+          <div class="mb-3 me-3">
+              <label for="inputName" class="form-label">Name</label>
+              <input type="text" id="inputName" class="form-control" aria-describedby="passwordHelpInline"
+                placeholder="Person McReal">
+          </div>
+
+        </div>
+        <div class="mb-3">
+            <label for="inputEmail" class="col-form-label">Email</label>
+            <input type="Email" id="inputEmail" class="form-control" aria-describedby="passwordHelpInline"
+              placeholder="personmcreal@realemailaddress.com">
+        </div>
+      </div>
+
+      <div class="container col-md">
+        <label for="subject" class="form-label">Subject</label>
+        <select class="form-select mb-3" id="subject" aria-label="select option">
+          <option selected>Select restaurant</option>
+          <option value="1">All restaurants</option>
+          <option value="2">Sakura Sushi</option>
+          <option value="3">Mikado Sushi Bar</option>
+          <option value="4">Wasabi Fusion</option>
+          <option value="5">Koi Sushi Lounge</option>
+        </select>
+
+        <label for="message" class="form-label">Message</label>
+        <textarea class="form-control" id="message" class="form-control" aria-describedby="messageHelp"
+          placeholder="insert message here"></textarea>
+      </div>
+
+    </div>
+    <button type="submit" class="btn btn-dark btn-lg align-self-center">Submit</button>
+
+  </form>
+
 </body>
 
 </html>
