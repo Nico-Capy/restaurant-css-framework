@@ -24,16 +24,23 @@
     </div>
   </nav>
 
-  <nav aria-label="breadcrumb">
-    <ol class="breadcrumb bg-transparent">
-      <li class="breadcrumb-item active" aria-current="page">Home</li>
-      <li class="breadcrumb-item active" aria-current="page">Contact</li>
-    </ol>
-  </nav>
+  <div class="row">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb  bg-transparent">
+        <li class="breadcrumb-item active" aria-current="page">Home</li>
+        <li class="breadcrumb-item active" aria-current="page">Contact</li>
+      </ol>
+    </nav>
+  
+    <div class="container-fluid mt-3">
+      <h1 class="text-center p-1 text-center">La Pasteria</h1>
+      <h2 class="text-center">Contact</h2>
+    </div>
+  </div>
 
   <form>
 
-    <div class="row">
+    <div class="row p-3">
       <div class="container col-md">
         <div class="d-flex ">
           <div class="mb-3 me-3">
@@ -51,16 +58,7 @@
       </div>
 
       <div class="container col-md">
-        <label for="subject" class="form-label">Subject</label>
-        <select class="form-select mb-3" id="subject" aria-label="select option">
-          <option selected>Select restaurant</option>
-          <option value="1">All restaurants</option>
-          <option value="2">Sakura Sushi</option>
-          <option value="3">Mikado Sushi Bar</option>
-          <option value="4">Wasabi Fusion</option>
-          <option value="5">Koi Sushi Lounge</option>
-        </select>
-
+        
         <label for="message" class="form-label">Message</label>
         <textarea class="form-control" id="message" class="form-control" aria-describedby="messageHelp"
           placeholder="insert message here"></textarea>
