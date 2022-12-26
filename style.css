@@ -8,6 +8,17 @@
 }
 
 .jumbotron{
-    height: 50%;
+    height: 100px;
     
 }
+
+#chumbo{
+    background-image: url(mediterraneancuisine.jpg);
+    height: 100%;
+    background-size:cover;
+}
+
+#success{
+    background-color: rgba(40, 167, 69, 1);
+}
+
