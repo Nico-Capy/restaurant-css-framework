@@ -3,3 +3,6 @@
     src: url(BEERNOTE.ttf) format('truetype');
 }
 
+.navbar{
+    font-family: BEERNOTE;
+}

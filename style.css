@@ -3,7 +3,17 @@
     src: url(BEERNOTE.ttf) format('truetype');
 }
 
-#home{
-    background-image: url(mediterraneancuisine.jpg);
-    width: 100%;
+.breadcrumb{
+    font-family: BEERNOTE;
+    font-size: 30px;
+    color: black;
+}
+
+.navbar{
+    font-family: BEERNOTE;
+}
+
+.jumbotron{
+    height: 50%;
+    font-family: BEERNOTE;
 }
