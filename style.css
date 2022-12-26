@@ -3,4 +3,7 @@
     src: url(BEERNOTE.ttf) format('truetype');
 }
 
-
+#home{
+    background-image: url(mediterraneancuisine.jpg);
+    width: 100%;
+}
