@@ -15,3 +15,12 @@ h1{
 #text{
     align-content: center;
 }
+
+.btn{
+    border: 2px solid whitesmoke !important;
+}
+
+.btn:hover{
+    background-color: #dc3545 !important;
+    border-radius: 1rem !important;
+}
