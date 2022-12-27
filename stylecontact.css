@@ -5,7 +5,22 @@
 
 .navbar{
     font-family: BEERNOTE;
-    width: 100%;
+    position: sticky;
+}
+
+.navbar-brand{
+    max-height: fit-content !important;
+    max-width: fit-content !important;
+    font-size: 250% !important;
+}
+
+.navbar-brand:hover{
+    font-size: 270% !important;
+    transition: 0.6s;
+}
+
+.head{
+    animation: fadeIn 1.6s !important;
 }
 
 h1{
@@ -37,4 +52,13 @@ h2{
 .list-group{
     border: none;
     width: 32% !important;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }

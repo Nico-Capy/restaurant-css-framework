@@ -11,19 +11,22 @@
 .navbar-brand{
     max-height: fit-content !important;
     max-width: fit-content !important;
+    font-size: 250% !important;
 }
 
 .navbar-brand:hover{
-    background-color: #28a745;
-    border: 1px solid whitesmoke;
-    border-radius: 5rem !important;
-    width: calc(100% + 3rem);
+    font-size: 270% !important;
+    transition: 0.6s;
 }
 
 h1{
     margin-top: -2% !important;
     font-family: BEERNOTE !important;
     font-size: 320% !important;
+}
+
+.head{
+    animation: fadeIn 1.6s !important;
 }
 
 h2{
@@ -34,4 +37,13 @@ h2{
 .card{
     border: 1px solid whitesmoke !important;
     background-color: transparent !important;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
