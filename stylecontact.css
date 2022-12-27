@@ -6,3 +6,7 @@
 .navbar{
     font-family: BEERNOTE;
 }
+
+h1{
+    margin-top: -2% !important;
+}
