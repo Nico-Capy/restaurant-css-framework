@@ -5,6 +5,19 @@
 
 .navbar{
     font-family: BEERNOTE;
+    position: sticky;
+}
+
+.navbar-brand{
+    max-height: fit-content !important;
+    max-width: fit-content !important;
+}
+
+.navbar-brand:hover{
+    background-color: #28a745;
+    border: 1px solid whitesmoke;
+    border-radius: 5rem !important;
+    width: calc(100% + 3rem);
 }
 
 h1{
@@ -16,4 +29,9 @@ h1{
 h2{
     font-family: BEERNOTE !important;
     font-size: 300% !important; 
+}
+
+.card{
+    border: 1px solid whitesmoke !important;
+    background-color: transparent !important;
 }
