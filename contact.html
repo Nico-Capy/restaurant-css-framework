@@ -54,18 +54,42 @@
 
     </div>
 
-      <div class="row justify-content-center mt-0">
+    <div class="container-fluid p-2 justify-content-between">
+      <div class="row row-col-2 justify-content-center">
 
+        <div class="col">
         <div class="mt-2 p-2">
           <label for="message" class="col-form-label text-white">Message</label>
-          <textarea class="form-control" id="text" class="form-control" aria-describedby="messageHelp"
+          <textarea class="form-control" id="text" class="form-control w-100" aria-describedby="messageHelp"
           placeholder="Type your message here"></textarea>
         </div>
+        </div>
       
+        <div class="col">
+          <div class="list-group">
+            <label class="list-group-item bg-transparent">
+              <input class="form-check-input me-1" type="checkbox">
+              Rome
+            </label>
+            <label class="list-group-item bg-transparent">
+              <input class="form-check-input me-1" type="checkbox">
+              London
+            </label>
+            <label class="list-group-item bg-transparent">
+              <input class="form-check-input me-1" type="checkbox">
+              New York
+            </label>
+            <label class="list-group-item bg-transparent">
+              <input class="form-check-input me-1" type="checkbox">
+              Brussels
+            </label>
+          </div>
+        </div>
       </div>
+    </div>
 
       <div class="row justify-content-center mt-0 p-4">
-        <button type="submit" class="btn btn-success btn-lg align-self-center mb-2">Submit</button>
+        <button type="submit" class="btn btn-success btn-lg align-self-center mb-2">Send</button>
       </div>
 
   </form>
