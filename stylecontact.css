@@ -5,8 +5,13 @@
 
 .navbar{
     font-family: BEERNOTE;
+    width: 100%;
 }
 
 h1{
     margin-top: -2% !important;
+}
+
+#text{
+    align-content: center;
 }
