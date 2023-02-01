@@ -46,11 +46,11 @@ h2{
 }
 
 .carousel-inner{
-    height: 41% !important;
+    height: 16% !important;
 }
 
 #carouselCrossfade{
     margin-left: auto;
     margin-right: auto;
-    width: 60%;
+    width: 53% !important;
 }
