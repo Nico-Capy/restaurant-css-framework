@@ -1,6 +1,0 @@
-# Use an official PHP image as the base image
-FROM php:8.2.1-apache
-
-# Copy the HTML and CSS files into the Apache webroot directory
-COPY index.html /var/www/html/
-COPY styles.css /var/www/html/
